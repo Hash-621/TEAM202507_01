@@ -45,9 +45,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     
-    // [★추가] MyBatis 스프링 부트 스타터 (Spring Boot 3.x/4.x 호환)
-    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.4'
-    
     // 시큐리티 추가
     implementation 'org.springframework.boot:spring-boot-starter-security'
     
